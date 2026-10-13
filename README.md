@@ -1,14 +1,40 @@
-# 奥斯汀 · Skill
+<h1 align="center">austin.skill</h1>
 
-**中文** | [English](README.en.md)
+<p align="center">奥斯汀 · J. L. Austin</p>
 
-[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with Nuwa](https://img.shields.io/badge/Made_with-Nuwa-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
+**中文** · [English](README.en.md)
 
-言语行为、借口与具体情境。以可追溯原作和明确边界支持思想分析，默认中性，人物表达单独开启。
+<blockquote>
+<p align="center">“日常语言并不是最后的定论。”<br>— 奥斯汀 · <a href="https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf">〈为借口辩护〉</a></p>
+</blockquote>
 
-使用 [nvwa-skill](https://github.com/alchaincyf/nuwa-skill) 构建。
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent_Skills-Standard-blue.svg)](https://agentskills.io/) [![Made with nvwa-skill](https://img.shields.io/badge/Made_with-nvwa--skill-orange.svg)](https://github.com/alchaincyf/nuwa-skill)
 
-[使用说明](USAGE.md) · [思想入口与研究材料](SKILL.md)
+**将言语行为与日常语言辨析整理为思想分析 Skill，让 AI 分清一句话说了什么、做了什么，以及失信、误解与失效究竟发生在哪一层。**
+
+---
+
+## 效果示例
+
+以下为说明用法而编写的示例，展示分析思路；不是哲学家原话或实测对话记录。
+
+### 1. 他说“我保证”，后来承认当时根本不想兑现，那还算承诺吗？
+
+> 不真诚与未作出承诺是两回事。先看语境中承诺是否成立，再看诚意和履行；当时没有兑现意图，可能恰好是这项承诺的缺陷，而不是承诺从未发生。
+
+### 2. “我没看见警告”和“那条规定不合理”，有区别吗？
+
+> 前一句通常涉及行动者知道什么，后一句质疑规则或行为评价。它们需要不同证据，也可能同时出现；不能把两者统称为找借口，更不能仅凭一句解释就宣布免责。
+
+## 蒸馏了什么
+
+| 思想方法 | 能帮助分析什么 |
+|---|---|
+| 言语行为 | 分开言说内容、施行行为与实际效果。 |
+| 失效与不真诚 | 检查资格、程序、诚意与履行，不把所有失败合并。 |
+| 借口与辩护 | 追问理由是在改变行为评价，还是减轻行为者的责任。 |
+
+这些方法来自已定位的原作选段，不代表全集蒸馏。具体依据与适用范围见 [SKILL.md](SKILL.md) 和 [提炼说明](EXTRACTION.md)。
 
 ## 安装
 
@@ -34,22 +60,39 @@ git clone https://github.com/jiushiaaa/austin-skill.git
 
 不支持自动加载时，可把 `SKILL.md` 连同当前问题需要的引用文件交给 agent。README 与使用说明提供中英双语，研究底稿保留原语言。
 
-## 使用
+## 使用方式
 
-例如：“用奥斯汀的思想分析这个问题，区分原作观点与当代推断。”需要表达模拟时明确开启人物表达模式；文游创作或审读只取思想，不接管作品口吻。详见[双语使用说明](USAGE.md)。
+- **中性思想模式（默认）：**“用奥斯汀的思想分析这个问题，区分原作观点与当代应用。”
+- **人物表达模式（可选）：**明确提出“开启人物表达模式”。这是注明性质的模拟，不是作者本人发言。
 
-## 思想方法
+文游创作默认只取思想，文风另行决定。详见 [双语使用说明](USAGE.md)。
 
-- 话语作用（A1/A2；第1项）
-- 失效类型（A2；第2项）
-- 责任理由（A4；第3项）
-- 情境补充（A4；第4项）
+## 调研来源
 
-详见 [SKILL.md](SKILL.md) 与 [EXTRACTION.md](EXTRACTION.md)。目录中的候选、局部证据和未读范围均保留，不能把它们理解成全集蒸馏完成。
+《如何以言行事》选段；〈为借口辩护〉；相关日常语言分析材料。
 
-## 许可
+- [原作来源、版本与实际阅读范围](references/research/source-catalog.md)
+- [方法提炼与证据](EXTRACTION.md)
+- 开篇名言出处：<a href="https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf">〈为借口辩护〉</a>，日常语言方法讨论段（节选）。中文引文为本仓库译文；非英语原作的英文引文亦为本仓库译文。
 
-项目原创材料采用 [MIT](LICENSE)，引用的原著与译本保留各自权利。详见 [来源说明](ATTRIBUTION.md)。
+## 仓库结构
+
+主要文件：
+
+```text
+├── SKILL.md  # Skill 入口与分析方法
+├── README.md / README.en.md  # 中英文介绍
+├── USAGE.md  # 双语使用说明
+├── EXTRACTION.md  # 方法提炼与证据
+├── references/  # 研究笔记与可选人物表达模式
+└── LICENSE  # MIT 许可
+```
+
+## 构建工具
+
+使用 [nvwa-skill](https://github.com/alchaincyf/nuwa-skill) 构建。
+
+项目原创材料采用 [MIT](LICENSE)，所引原著与译本保留各自权利。详见 [来源说明](ATTRIBUTION.md)。
 
 ## 更多 Skill
 
