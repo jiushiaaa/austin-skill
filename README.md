@@ -6,9 +6,9 @@
 
 言语行为、借口与具体情境。以可追溯原作和明确边界支持思想分析，默认中性，人物表达单独开启。
 
-使用[花叔的女娲 · Skill造人术](https://github.com/alchaincyf/nuwa-skill)构建，结合原作调研与独立模型评测。
+使用 [nvwa-skill](https://github.com/alchaincyf/nuwa-skill) 构建。
 
-[使用说明](USAGE.md) · [思想入口与研究材料](SKILL.md) · [评测记录](FIDELITY.md)
+[使用说明](USAGE.md) · [思想入口与研究材料](SKILL.md)
 
 ## 安装
 
@@ -38,7 +38,7 @@ git clone https://github.com/jiushiaaa/austin-skill.git
 
 例如：“用奥斯汀的思想分析这个问题，区分原作观点与当代推断。”需要表达模拟时明确开启人物表达模式；文游创作或审读只取思想，不接管作品口吻。详见[双语使用说明](USAGE.md)。
 
-## 当前方法入口
+## 思想方法
 
 - 话语作用（A1/A2；第1项）
 - 失效类型（A2；第2项）
@@ -47,16 +47,10 @@ git clone https://github.com/jiushiaaa/austin-skill.git
 
 详见 [SKILL.md](SKILL.md) 与 [EXTRACTION.md](EXTRACTION.md)。目录中的候选、局部证据和未读范围均保留，不能把它们理解成全集蒸馏完成。
 
-## 评测与当前版本
+## 许可
 
-R3 两名独立评审：**86/100、86/100**。两评均A且无未解决阻碍：**否**。详见[完整记录](FIDELITY.md)。
+项目原创材料采用 [MIT](LICENSE)，引用的原著与译本保留各自权利。详见 [来源说明](ATTRIBUTION.md)。
 
-按维护者决定停在当前可用版本，不继续追分。评分对应冻结的中文运行文件，不是学术认证，也不表示此次发布整理重新做过行为评测。初次匿名材料遗漏题干的限制与后续核查均保留；表达辨识和个别推理仍有不足。
+## 更多 Skill
 
-## 相关项目
-
-[独立仓库](https://github.com/jiushiaaa/austin-skill) · [Philosophy Skills 合集](https://github.com/jiushiaaa/Philosophy-Skills)：21个自制模块与25个注明来源的上游模块，各自独立。
-
-## 致谢与许可
-
-感谢花叔 / alchaincyf、女娲、Agent Skills 协议贡献者及底稿列明的原典编辑与公开资料提供者。详见[来源与许可](ATTRIBUTION.md)。项目原创材料使用 [MIT](LICENSE)，第三方引文保留原权利。README 和使用说明中英双语，研究底稿保留原文。
+更多人物 Skill 请查看 [Philosophy Skills 合集](https://github.com/jiushiaaa/Philosophy-Skills)。
