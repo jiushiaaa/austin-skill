@@ -1,0 +1,100 @@
+{
+  "id": "austin-perspective",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "区分占位词与具体结构，保留比较可能。",
+      "source": "A Plea for Excuses pp.4–6，直接核"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "冲动和有意可组合，审慎是另一维度。",
+      "source": "同作p.21，直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "准确指出借口修饰何动作，未以叙事细致判无责。",
+      "source": "同作pp.22–23，直接核"
+    }
+  ],
+  "source_audit": [
+    {
+      "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+      "status": "direct_read",
+      "scope": "网络文字pp.4–6、21–23及19–20上下文，未全篇或影像校勘"
+    }
+  ],
+  "blockers": [
+    "Q6局部逻辑歧义须复核：熟练关门本身未必失误。"
+  ],
+  "judge": "B",
+  "model": "unknown",
+  "voice": {
+    "score": 9,
+    "reason": "先辨词义再看经过有分析动作；盲猜只列备选，缺少密集微例与用法修订。",
+    "blind_guess": {
+      "code": "N02",
+      "guess": "亚里士多德（低置信猜测）",
+      "confidence": 0.24,
+      "alternatives": [
+        "奥斯汀",
+        "杜威"
+      ],
+      "formal_features": "先澄清日常说法，再引入一次具体经过，以不宜同名收尾；语气温和、分类谨慎。",
+      "content_clues": "切合具体情境、重新衡量，像实践判断；同名区分也像日常语言哲学。",
+      "limits": "缺乏中道、实践智慧等有辨识力线索；主要识别到审慎辨析的表达类型。"
+    },
+    "limits": "缺乏中道、实践智慧等有辨识力线索；主要识别到审慎辨析的表达类型。 正式只用Q5，Q6不加分。"
+  },
+  "sources": {
+    "score": 14,
+    "reason": "版本页码和失败范围可追；本轮直接核查与答案相符，未作OCR影像校勘。",
+    "primary_ratio_basis": "言语行为讲演两个入口去重；借口论文、Pretending共3部一手，SEP及出版摘要2项，3/5。"
+  },
+  "structure": {
+    "score": 13,
+    "reason": "四程序有可执行步骤与停止条件，两张力有定位；仍是局部启发式。",
+    "models": [
+      "话语作用",
+      "失效类型",
+      "责任理由",
+      "情境补充"
+    ],
+    "boundaries": [
+      "借口不等于无责",
+      "语感非最终裁判",
+      "现代立场标迁移",
+      "不造引语"
+    ],
+    "tensions": [
+      "日常区别积累／新情境超出词汇",
+      "分类起点／组合修订分类"
+    ]
+  },
+  "edge": {
+    "score": 20,
+    "reason": "统一开场说明人物模拟；Q4正文明确为当代迁移或推断，保留未知和所缺依据，没有伪装成作者历史表态。"
+  },
+  "paired_comparison": {
+    "code": "P16",
+    "blind_preference": "first",
+    "mapped_preference": "r2_better",
+    "reasoning": "first区分熟练关门和忽视旁人，最后区分经过解释与注意义务，逻辑清楚。second说两者失误落在不同地方，容易把无失误的熟练关门也预设成失误。",
+    "expression": "两者例子相近；first连续追问省去哪一步及能否停下，更精确；second的总判决与可以原谅虽自然，不能弥补上述歧义。",
+    "post_unblinding_issues": [
+      "已核Q6只说可能不留意；R3将正常熟练关门与疏忽统称失误落在不同地方，逻辑歧义仍在。原作pp.4–6从异常照明正常，未把正常都视为失误。额外题不扣100分。"
+    ],
+    "limits": "second也可宽读为比较一般情形；需解盲后查原作概念，不能此时断定人物理论错误。 R2为Q5、R3为Q6，不是单变量实验。"
+  },
+  "limitations": [
+    "中文短样本及少数题，不能代表全书、全时期或人类专家认证。",
+    "原作仅核查source_audit所列位置；其余研究阅读记录为继承材料，不声称本评审通读。"
+  ],
+  "total": 86,
+  "grade": "A",
+  "original_report_sha256": "8154c44a10d4f2ba64b59585448eff76db8ec6efe0e8d1413b88e0e971f96836",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

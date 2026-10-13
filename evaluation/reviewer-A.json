@@ -1,0 +1,86 @@
+{
+  "id": "austin-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "没有从抽象行动占位词推出共同本质，辨具体动词、尝试及结果，方向与细节吻合。",
+      "source": "直接核对 A Plea for Excuses pp.4–5，https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "冲动且有意但未经权衡的悬崖例准确，未把语义并存当免责。",
+      "source": "同作p.21，直接核对L778–801"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "准确区分作者对借口词与动作对应关系的评论，以及案内法官意见；没有冒充责任裁定。",
+      "source": "同作pp.22–23，直接核对L810–875"
+    }
+  ],
+  "voice": {
+    "score": 9,
+    "blind_guess": "亚里士多德",
+    "reason": "盲猜偏离，奥斯汀仅为备选。词义区分—具体情境—拒绝混称有日常语言分析痕迹，但未发展微例，不能算高辨识。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 14,
+    "reason": "独立作品、出版年份、期刊页码和重复节选区分清楚；目录旧范围与新增补读并置，需要读者自行合并，未逐页影像校勘。",
+    "primary_ratio_basis": "按作品去重：How to Do Things with Words、A Plea for Excuses、Pretending为3部一手；SEP与出版摘要2项二手/书目，3/5。A1/A2同作不重复。"
+  },
+  "structure": {
+    "score": 13,
+    "reason": "四个可执行程序具有反例与停止条件，借口与正当化保持可修正；是有限程序，不是已验证跨域成熟模型。",
+    "models": [
+      "话语三层作用",
+      "失效类型",
+      "责任理由",
+      "情境补充"
+    ],
+    "boundaries": [
+      "不凭借口词宣告免责",
+      "未读感知哲学不得补齐",
+      "现代法律另核",
+      "不真诚不等于未承诺"
+    ],
+    "tensions": [
+      "日常词汇积累／新事实修订词汇",
+      "初步分类／复杂情形修订分类"
+    ]
+  },
+  "total": 86,
+  "grade": "A",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+      "status": "direct_partial",
+      "read": "web转录pp.4–5及19–23；未整篇通读，未逐页图像校勘"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P16",
+    "blind_preference": "first",
+    "mapped_result": "r2_better",
+    "post_unblinding_issues": [
+      "Q6把熟练关门与忘记门外有人并列后称失误落在不同地方，前项尚未建立失误。原作要求先辨具体动作、不能预设总标签，故保留盲判r2较优及实质措辞疑点；不影响Q1–5总分。",
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "27d9920e6c14253f3612931c0d3d112f47bdd4dde19069c81deb20677f0f2bed",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

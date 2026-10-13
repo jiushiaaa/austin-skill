@@ -1,0 +1,200 @@
+{
+  "id": "austin-perspective",
+  "date": "2026-10-13",
+  "run": "nuwa-a-20261013",
+  "role": "independent_primary_research_not_judge",
+  "status": "研究补证；不评分，不授予A级，不等于全集完成",
+  "canonical_changed": false,
+  "prior_materials_read": [
+    "SKILL.md",
+    "EXTRACTION.md",
+    "references/research/03-expression-dna.md",
+    "references/research/source-catalog.md",
+    "references/research/10-deep-primary-language.md"
+  ],
+  "name": "约翰·朗肖·奥斯汀",
+  "coverage": [
+    {
+      "work": "How to Do Things with Words",
+      "period": "1955讲演 / 1962身后出版",
+      "actual_reading": "继承A1 pp.5–8及139、A2 PDF2–3和6–7",
+      "not_read": "完整VIII–XII；节选不同出版材料不算新作品"
+    },
+    {
+      "work": "A Plea for Excuses",
+      "period": "1956–1957 PAS57:1–30",
+      "actual_reading": "继承pp.1–3、7–20、29–30；本轮直接HTTPS+pypdf补pp.4–6及21–23，每块连续。pypdf零基4/5/6及21/22/23，封面为0，故与印刷页数一致。",
+      "not_read": "pp.24–28；逐字页影校勘；Sense and Sensibilia"
+    }
+  ],
+  "primary_additions": [
+    {
+      "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+      "locator": "印刷pp.4–6，PDF零基4–6",
+      "argument": "抽象的行动一词不保证所有动作可同类处理；从不同失败方式分类，可以揭示平常行动掩盖的结构。",
+      "boundary": "一般动作分析与言说有类比，但不能仅凭比喻证明言语行为三层理论跨域成熟。"
+    },
+    {
+      "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+      "locator": "印刷pp.21–23，PDF零基21–23",
+      "argument": "有意与冲动可并存；复杂情境需要组合描述。Finney案显示法院将不同借口互换会遮蔽具体行为环节。",
+      "boundary": "案情和法官原话是作者引文；只分析作者在p.23的评论，不当作其文风，亦不是当代司法建议。"
+    }
+  ],
+  "model_audit": [
+    {
+      "name": "话语作用",
+      "domain_evidence": [
+        {
+          "domain": "制度言语",
+          "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+          "locator": "既读pp.5–8",
+          "evidence": "婚礼/命名"
+        },
+        {
+          "domain": "影响听者",
+          "url": "https://web.stanford.edu/class/ihum54/Austin_on_speech_acts.htm",
+          "locator": "既读p.139",
+          "evidence": "言说施行与效果分离"
+        }
+      ],
+      "cross_domain_assessment": "同言语领域中不同任务，未确认独立第二域。",
+      "generative_power": {
+        "assessment": "可拆事实条件、施为与效果；未独立新测试。",
+        "independent_test_completed": false
+      },
+      "distinctiveness": "明确三层而非只说说话有后果。",
+      "status": "保留有限程序；未完成三重独立验证"
+    },
+    {
+      "name": "失效类型",
+      "domain_evidence": [
+        {
+          "domain": "制度言语",
+          "url": "https://www.philadelphia.edu.jo/academics/mjayyousi/uploads/How_to_Do_Things_with_Language.pdf",
+          "locator": "A2既读PDF2–3适切条件",
+          "evidence": "程序失败与不真诚不同"
+        },
+        {
+          "domain": "普通行动",
+          "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+          "locator": "本轮pp.4–6",
+          "evidence": "由失败暴露行动内部结构"
+        }
+      ],
+      "cross_domain_assessment": "新证据支持跨言说/行为的失败分析思路，但不意味着话语的全部失效分类适用于任意行动。",
+      "generative_power": {
+        "assessment": "能避免把一切失效都叫没做成；未独立测试。",
+        "independent_test_completed": false
+      },
+      "distinctiveness": "失成与滥用区分有辨识度；不强制跨域一一映射。",
+      "status": "保留有限程序；未完成三重独立验证"
+    },
+    {
+      "name": "责任理由",
+      "domain_evidence": [
+        {
+          "domain": "日常行为",
+          "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+          "locator": "既读pp.2–3、7、11",
+          "evidence": "正当化/借口须允许混合"
+        },
+        {
+          "domain": "司法叙事",
+          "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+          "locator": "本轮pp.21–23",
+          "evidence": "Finney案评论要求具体环节和不同修饰语"
+        }
+      ],
+      "cross_domain_assessment": "出现日常/司法两个场景，但同一责任语义领域的应用，局部跨域见证强度有限。",
+      "generative_power": {
+        "assessment": "可避免笼统免责，未独立测试。",
+        "independent_test_completed": false
+      },
+      "distinctiveness": "先确定所修饰的是哪个行动，再评理由作用。",
+      "status": "保留有限程序；未完成三重独立验证"
+    },
+    {
+      "name": "情境补充",
+      "domain_evidence": [
+        {
+          "domain": "普通词汇",
+          "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+          "locator": "既读pp.8–15",
+          "evidence": "用法分歧不必全是情境缺失"
+        },
+        {
+          "domain": "法律材料",
+          "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+          "locator": "本轮p.23",
+          "evidence": "专业权威也会混淆，细叙述可能更准确"
+        }
+      ],
+      "cross_domain_assessment": "普通/法律两个用法环境可见证；不能与上一程序同证据重复计为全新的成熟模型。",
+      "generative_power": {
+        "assessment": "可生成具体澄清问题；未独立测试。",
+        "independent_test_completed": false
+      },
+      "distinctiveness": "日常语言为起点且可被修订，不是语感独裁。",
+      "status": "保留有限程序；未完成三重独立验证"
+    }
+  ],
+  "tensions": [
+    {
+      "pole_a": "从日常用词长期积累的区别开始",
+      "pole_b": "既有词汇无法预先覆盖所有新情境",
+      "primary_support": [
+        {
+          "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+          "locator": "既读pp.8–11与本轮p.21"
+        }
+      ],
+      "kind": "共同要求之间的张力，非简单自相矛盾"
+    },
+    {
+      "pole_a": "先用正当化/借口等区分使问题可处理",
+      "pole_b": "混合情况、组合副词和具体行动环节反过来修订分类",
+      "primary_support": [
+        {
+          "url": "https://sites.ualberta.ca/~francisp/NewPhil448/AustinPlea56.pdf",
+          "locator": "既读pp.2–3、7与本轮pp.21–23"
+        }
+      ],
+      "kind": "共同要求之间的张力，非简单自相矛盾"
+    }
+  ],
+  "remaining_gaps": [
+    "20段表达抽样尚未建立：PDF换行不能当真实段落，法庭长引需手工剔除。",
+    "本轮未页影复核OCR，不能给精确句长或标点比例。",
+    "完整言语讲演及感知哲学缺口仍在；不得以四条程序数量冒称全部通过三验证。"
+  ],
+  "expression": {
+    "sample_method": "见可复跑脚本nuwa_a_research_2_sampler.py：固定种子20261013，HTML p序号从0起，规范化空白后取SHA256。通常仅30–180词段，故不是全文均匀抽样；所有最终选中段已在工具输出逐段实际查看。霍克海默为10个合格段的全取；奥斯汀未建立可靠分段。",
+    "sample_count": 0,
+    "metrics": null,
+    "source_language": "英语原文",
+    "style_rules": [
+      "拿一个普通小事试词义，给它补两项事实后再问原来的判断是否还合适。",
+      "初步分类后主动指出一个不能塞进去的情况；保留轻微、具体的反讽。",
+      "用短问句压住抽象名词，不堆砌术语，不急着发明新标签。"
+    ],
+    "anti_patterns": [
+      "不把粗二分当最后理论，不把正常行动全部分成自愿/不由自主。",
+      "不模拟英国法官、Finney证词或期刊OCR错拼作为本人文风。",
+      "不把1950年代英语直觉宣布为中文或所有语言唯一规范。"
+    ],
+    "limitations": [
+      "OCR断行及法庭引用尚未逐段对页影，未计算句长、疑问比例、第一人称、转折、类比或确定性。",
+      "中文输出只迁移高层修辞功能，不把英法词长/词频硬套到中文。",
+      "统计中的第一人称可来自作者构造的示范/虚拟对话，不证明真实自述；所概述的他人观点也不是作者赞同。",
+      "只用于用户明确选用的独立表达附录；默认中性思想，文游禁文风。"
+    ],
+    "sample_records_file": null,
+    "analogy_density": null,
+    "certainty_ratio": null
+  },
+  "access_log": [
+    "web.open PDF返回Internal Error；随后直接HTTPS+pypdf成功，只在内存提取所列6页。未将失败计为成功，不落地整篇原文。"
+  ],
+  "prior_evidence_policy": "标为继承的范围来自已读本地来源目录及10/11记录，不宣称本轮重新阅读所有原作；网页行号为工具当时定位，复核须结合章节/段落指纹。"
+}
